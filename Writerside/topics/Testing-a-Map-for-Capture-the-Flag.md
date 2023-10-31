@@ -173,15 +173,15 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 > Common commands:
 > - To end build time, use the `/ctf_start` command.
 > - To set yourself to the other team, run:
-    >  ```
+>  ```
 >  /grantme ctf_team_admin
 >  ```
-    >  Then:
-    >  ```
+>  Then:
+>  ```
 >  /ctf_teams set singleplayer <team color>
 >  ```
-    >  For example:
-    >  ```
+>  For example:
+>  ```
 >  /ctf_teams set singleplayer blue
 >  ```
 

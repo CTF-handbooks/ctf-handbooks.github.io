@@ -1,9 +1,5 @@
 # The Map Maker's Handbook
-<p align="center">
-    <img src="header.png"/>
-</p>
-
-<h1 align="center">The Map Maker's Handbook</h1>
+![header](header.png)
 
 This is a detailed guide on the process of making a map for the Minetest Capture the Flag game. This is still a work in progress.
 
