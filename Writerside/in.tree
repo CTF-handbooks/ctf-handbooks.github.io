@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                  name="The Map Maker's Handbook" start-page="CTF-Handbooks.md">
+                  name="CTF Handbooks" start-page="CTF-Handbooks.md">
 
     <toc-element topic="CTF-Handbooks.md"/>
     <toc-element topic="README.md">
