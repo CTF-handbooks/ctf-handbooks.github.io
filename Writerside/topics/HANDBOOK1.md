@@ -98,7 +98,7 @@ Below is a list of a few terms you need to know while testing maps and using Git
 
 #### *Labels on Pull Requests*
 
-The Map PRs have labels that indicate their current development stage and give information about them. You should look for the ***"New Map"*** and ***"Review Required :mag:"*** labels, as they are the ones that need a review. There are also others, such as, ***"PR not created properly"*** ***"WIP :building_construction:"*** (= Work In Progress), ***"Enhancement"***, and ***"Action/change needed :grey_exclamation:"***. A good example of a PR that you can test is:
+The Map PRs have labels that indicate their current development stage and give information about them. You should look for the ***"New Map"*** and ***"Review Required 🔍"*** labels, as they are the ones that need a review. There are also others, such as, ***"PR not created properly"***, ***"WIP 🏗️"*** (= Work In Progress), ***"Enhancement"***, and ***"Action/change needed ❕"***. A good example of a PR that you can test is:
 
 ![Labels Example](label_example.png)
 
@@ -224,4 +224,4 @@ To post your review, go to the ***Conversation*** tab within the PR on GitHub. W
 
 ## Test away!
 
-Now that you have completed reading this and can test a map, you can use [`CHECKLIST.md`](CHECKLIST.md) as a summary of the process so that you never miss a step. Thank you, and enjoy your time testing map PRs for CTF!
+Now that you have completed reading this and can test a map, you can use [`CHECKLIST1.md`](CHECKLIST.md) as a summary of the process so that you never miss a step. Thank you, and enjoy your time testing map PRs for CTF!

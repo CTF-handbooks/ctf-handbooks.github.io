@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="68e53fe4">
+        <description>Created after removal of "Testing a Map for Capture the Flag" from CTF Handbooks</description>
+        <accepts>HANDBOOK1.html</accepts>
+    </rule>
+</rules>
