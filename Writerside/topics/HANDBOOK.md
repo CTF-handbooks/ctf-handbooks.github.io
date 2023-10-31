@@ -1,4 +1,4 @@
-# The Map Maker's Handbook
+# Making a Map for Capture the Flag
 
 ***
 ### 1. Required tools

@@ -1,4 +1,4 @@
-# About
+# The Map Maker's Handbook
 <p align="center">
     <img src="header.png"/>
 </p>

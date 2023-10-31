@@ -3,9 +3,15 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                  name="The Map Maker's Handbook" start-page="HANDBOOK.md">
+                  name="The Map Maker's Handbook" start-page="CTF-Handbooks.md">
 
-    <toc-element topic="README.md"/>
-    <toc-element topic="HANDBOOK.md"/>
-    <toc-element topic="ITEMSTRING.md"/>
+    <toc-element topic="CTF-Handbooks.md"/>
+    <toc-element topic="README.md">
+        <toc-element topic="HANDBOOK.md"/>
+        <toc-element topic="ITEMSTRING.md"/>
+    </toc-element>
+    <toc-element topic="README1.md">
+        <toc-element topic="HANDBOOK1.md"/>
+        <toc-element topic="CHECKLIST.md"/>
+    </toc-element>
 </instance-profile>
