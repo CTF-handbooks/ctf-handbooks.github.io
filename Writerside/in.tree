@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                  name="The Map Maker's Handbook" start-page="HANDBOOK.md">
+
+    <toc-element topic="README.md"/>
+    <toc-element topic="HANDBOOK.md"/>
+    <toc-element topic="ITEMSTRING.md"/>
+</instance-profile>
