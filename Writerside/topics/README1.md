@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/header.png"/>
+  <img src="header.png"/>
 </p>
 <h1 align="center">The Map Tester's Handbook</h1>
 
