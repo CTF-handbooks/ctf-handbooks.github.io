@@ -1,37 +1,40 @@
 # Making a Map for Capture the Flag
 
-***
-### 1. Required tools
+## 1. Required tools
 * Minetest version 5.6 or above.
   > If you don't have Minetest installed, you can download it from the [official Minetest website](https://www.minetest.net/).
+  > {style="note"}
 * Capture the Flag game for Minetest.
-  > You can install the game from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/rubenwardy/capturetheflag/).
-
-  > Once you downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/games`.
-* WorldEdit mod for Minetest (_optional_).
+  > You can install the game from either the ContentDB within your Minetest client or from the [ContentDB website](https://content.minetest.net/packages/rubenwardy/capturetheflag/).
+  >
+  > Once you have downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/games`.
+  > {style="note"}
+* WorldEdit mod for Minetest. <sup>(_optional_)</sup>
   > Although this is optional, it is recommended that you install WorldEdit. Creating maps requires you to build the borders and barriers of the map manually. This tool speeds the process up and is also helpful when building other desired map structures.
-
+  >
   > You can install WorldEdit from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/sfan5/worldedit/).
+  >
+  > Once you have download the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/mods`.
+  > {style="note"}
 
-  > Once you download the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/mods`.
-
-***
-### 2. Planning the map
+## 2. Planning the map
 * A map shouldn't be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. With a typical map size, players should be able to reach the middle of the map with a full sprint bar before running out of sprint. A maximum of `230 x 230` blocks in surface area is recommended.
 * If you are making a map for the official CTF server, it is important to note that your map should be unique and not similar to the maps that already exist in the game.
 
-  > "The design of a map should encourage differing gameplay and tactics." - -sniper-
-* The map design shouldn't give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.
-* Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause problems.
+  > "The design of a map should encourage differing gameplay and tactics."
+  >
+  > — -sniper-
 
-***
-### 3. Creating the world
+* The map design shouldn't give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.
+* Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause  problems.
+
+## 3. Creating the world
 * Open Minetest and select the `Capture the Flag` game.
 
-  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d64da4d8-10e7-4a0e-b555-775f3804097b)
+  ![Game Icon](game_icon.png)
 * Create a new world. You can use any mapgen. If you would like to use generated terrain, you can choose the `v7` or `flat` mapgen. If you plan on building the terrain/structures yourself, you can choose the `singlenode` mapgen.
 
-  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d49ea3a7-87b4-4d42-af98-e003790b8ad4)
+  ![Mapgens](mapgens.png)
 * After you click `Create`, uncheck `Enable Damage` and check `Creative Mode`. Creative mode will enable `mapedit` mode.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/158625b3-5596-4143-8a7e-8969835c17a2)
@@ -41,7 +44,7 @@
 * Click `Save` and play the world.
 
 ***
-### 4. Setting up
+## 4. Setting up
 * Grant yourself the "ctf_map_editor" priv by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant yourself "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc.
 * You can hit <kbd>Esc</kbd> on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc.).
 
@@ -55,7 +58,7 @@
   ```
 
 ***
-### 5. WorldEdit basics
+## 5. WorldEdit basics
 * To use WorldEdit, first, you must select an area where your actions occur.
 * You can use the `WorldEdit Wand tool` to select your area. To select your area, you select the two opposite corners of the area. Left-click a node with the tool to make the node the first corner, and right-click to set the second.
 
@@ -85,7 +88,7 @@
 
 ***
 It is your choice to build the barriers first or the map first. For this example, we are going to build the barriers first.
-### 6. Removing the surrounding terrain
+## 6. Removing the surrounding terrain
 * This is optional and only applies if you're using generated terrain.
 * It might be hard to place the outer barriers when the terrain outside your map area blocks your view.
 * To get rid of the extra terrain, first, select the area your map will be in with WorldEdit.
@@ -106,7 +109,7 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef)
 
 ***
-### 7. Placing the barriers
+## 7. Placing the barriers
 * To make the bottom of the map indestructible so that players can't escape, select the bottom layer of your map and replace it with any indestructible node through the WorldEdit GUI, or the command `//s <node itemstring>`. For example:
   ```
   //s ctf_map:ind_stone
@@ -144,7 +147,7 @@ It is your choice to build the barriers first or the map first. For this example
 * You can also make a roof using any type of indestructible node such as `Indestructible Barrier Glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. So, you do not necessarily need to add a roof.
 
 ***
-### 8. Building the map
+## 8. Building the map
 * If you are using the singlenode mapgen, players will not be able to move around without noclip. You have to set the area you want players to move in to `air` using WorldEdit. To do that, you can use the command:
   ```
   //s air
@@ -161,7 +164,7 @@ It is your choice to build the barriers first or the map first. For this example
     * _Optional_: ores (such as iron, diamond, or mese ores). The number of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).
 
 ***
-### 9. Building the build-time barrier
+## 9. Building the build-time barrier
 * Your build-time barrier should be in the middle of the map. It is fine if it can't be precisely in the middle.
   > You can press <kbd>F5</kbd> to show your current coordinates.
 * The `Indestructible Red Barrier Glass` will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.
@@ -184,7 +187,7 @@ It is your choice to build the barriers first or the map first. For this example
 * If there are still breakable nodes within the barrier wall, you can leave them there, because if you set your team-zones correctly later on, players should be teleported back to base if they cross the barrier wall.
 
 ***
-### 10. Selecting the map area
+## 10. Selecting the map area
 * After you finished building your map, run the following command in chat:
   ```
   /ctf_map editor
@@ -202,7 +205,7 @@ It is your choice to build the barriers first or the map first. For this example
   Make sure you selected your entire map and make sure you did not select any extra space. If you have decided to leave some terrain/structures outside your outer glass barrier, include them too.
 
 ***
-### 11. Exporting the map
+## 11. Exporting the map
 * After selecting your map area, run `/ctf_map editor` in chat again. This will open the Map Editor.
 * Check `Map Enabled` unless you don't want to make the map available for play. If you are making the map for the official server, you will check this.
 
@@ -308,7 +311,7 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/7544f651-0f90-45b3-bca4-684eb472043f)
 
 ***
-### 12. Testing the map
+## 12. Testing the map
 * You can find your exported map in `[Minetest folder]/worlds/[Map World]/schems/`.
 * To test your map, copy that folder into `[Minetest folder]/games/capturetheflag/mods/ctf/ctf_map/maps`. You can go to your Minetest folder and paste the following into your file manager's search/directory to navigate there quickly:
   ```
@@ -350,7 +353,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
 
 ***
-### 13. Screenshot
+## 13. Screenshot
 From the ctf_map README:
 > If you choose to submit your map, include a screenshot of it in the exported map's folder. It should be taken without any texture packs enabled and must have an aspect ratio of 3:2 (screenshot `600px`x`400px` is suggested).
 
@@ -368,5 +371,5 @@ From the ctf_map README:
 To crop your screenshot, you can use [this](https://imagy.app/image-aspect-ratio-changer/) website.
 
 ***
-### 14. Submission
+## 14. Submission
 * Now that you have finished making your map, you can submit it to the official CTF server. You can learn more about submission [here](https://github.com/MT-CTF/capturetheflag/blob/master/mods/ctf/ctf_map/README.md#9-submission).

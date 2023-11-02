@@ -7,12 +7,12 @@
                  start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>
+    <toc-element topic="The-Map-Maker-s-Handbook.md">
+        <toc-element topic="Making-a-Map-for-Capture-the-Flag.md"/>
+        <toc-element topic="Commonly-Used-Itemstrings-List.md"/>
+    </toc-element>
     <toc-element topic="The-Map-Tester-s-Handbook.md">
         <toc-element topic="Testing-a-Map-for-Capture-the-Flag.md"/>
         <toc-element topic="Map-Tester-s-Checklist.md"/>
-    </toc-element>
-    <toc-element topic="The-Map-Maker-s-Handbook.md">
-        <toc-element topic="Making-a-Map-for-Capture-the-Flag.md"/>
-        <toc-element topic="CTF-Commonly-Used-Itemstring-List.md"/>
     </toc-element>
 </instance-profile>
