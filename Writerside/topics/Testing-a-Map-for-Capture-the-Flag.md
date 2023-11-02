@@ -152,7 +152,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 - Press `New World`.
 - It is vital that you ensure you are setting the world's mapgen as `singlenode`, like the screenshot below.
 
-![Mapgen example](mapgens.png)
+![Mapgen example](mapgen.png)
 
 - Finally, click `Create`.
 
