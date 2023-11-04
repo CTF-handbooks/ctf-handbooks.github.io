@@ -1,4 +1,4 @@
-# Commonly Used Itemstrings List
+# CTF Commonly Used Itemstring List
 ***
 Commonly used indestructible barriers/nodes:
 

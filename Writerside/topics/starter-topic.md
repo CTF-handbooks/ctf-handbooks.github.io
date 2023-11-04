@@ -1,5 +1,4 @@
 # Welcome to CTF Handbooks! 👋
-![header](header.png)
 
 *Contacts:* [![CTF Minetest Forums Topic](minetestforumlogo.png){height=32 border-effect="rounded"}](https://forum.minetest.net/viewtopic.php?f=10&t=13157), [![Discord](discordlogo.svg){height=32 border-effect="rounded"}](https://discord.gg/vcZTRPX) (*`#maps` channel*)
 

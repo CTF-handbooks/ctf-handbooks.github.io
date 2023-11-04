@@ -1,40 +1,37 @@
 # Making a Map for Capture the Flag
 
-## 1. Required tools
+***
+### 1. Required tools
 * Minetest version 5.6 or above.
   > If you don't have Minetest installed, you can download it from the [official Minetest website](https://www.minetest.net/).
-  > {style="note"}
 * Capture the Flag game for Minetest.
-  > You can install the game from either the ContentDB within your Minetest client or from the [ContentDB website](https://content.minetest.net/packages/rubenwardy/capturetheflag/).
-  >
-  > Once you have downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/games`.
-  > {style="note"}
-* WorldEdit mod for Minetest. <sup>(_optional_)</sup>
-  > Although this is optional, it is recommended that you install WorldEdit. Creating maps requires you to build the borders and barriers of the map manually. This tool speeds the process up and is also helpful when building other desired map structures.
-  >
-  > You can install WorldEdit from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/sfan5/worldedit/).
-  >
-  > Once you have download the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/mods`.
-  > {style="note"}
+  > You can install the game from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/rubenwardy/capturetheflag/).
 
-## 2. Planning the map
+  > Once you downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/games`.
+* WorldEdit mod for Minetest (_optional_).
+  > Although this is optional, it is recommended that you install WorldEdit. Creating maps requires you to build the borders and barriers of the map manually. This tool speeds the process up and is also helpful when building other desired map structures.
+
+  > You can install WorldEdit from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/sfan5/worldedit/).
+
+  > Once you download the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/mods`.
+
+***
+### 2. Planning the map
 * A map shouldn't be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. With a typical map size, players should be able to reach the middle of the map with a full sprint bar before running out of sprint. A maximum of `230 x 230` blocks in surface area is recommended.
 * If you are making a map for the official CTF server, it is important to note that your map should be unique and not similar to the maps that already exist in the game.
 
-  > "The design of a map should encourage differing gameplay and tactics."
-  >
-  > — -sniper-
-
+  > "The design of a map should encourage differing gameplay and tactics." - -sniper-
 * The map design shouldn't give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.
-* Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause  problems.
+* Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause problems.
 
-## 3. Creating the world
+***
+### 3. Creating the world
 * Open Minetest and select the `Capture the Flag` game.
 
-  ![Game Icon](game_icon.png)
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d64da4d8-10e7-4a0e-b555-775f3804097b)
 * Create a new world. You can use any mapgen. If you would like to use generated terrain, you can choose the `v7` or `flat` mapgen. If you plan on building the terrain/structures yourself, you can choose the `singlenode` mapgen.
 
-  ![Mapgens](mapgens.png)
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d49ea3a7-87b4-4d42-af98-e003790b8ad4)
 * After you click `Create`, uncheck `Enable Damage` and check `Creative Mode`. Creative mode will enable `mapedit` mode.
 
   ![World Options](world_options.png)
