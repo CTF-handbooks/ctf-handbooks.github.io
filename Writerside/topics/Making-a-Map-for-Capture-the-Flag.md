@@ -3,7 +3,7 @@
 ## 1. Required tools
 * Minetest version 5.6 or above.
   > If you don't have Minetest installed, you can download it from the [official Minetest website](https://www.minetest.net/).
-  >  {style="note"}
+  > {style="note"}
 * Capture the Flag game for Minetest.
   > You can install the game from either the ContentDB within your Minetest client or from the [ContentDB website](https://content.minetest.net/packages/rubenwardy/capturetheflag/).
   >
@@ -310,7 +310,7 @@
   /games/capturetheflag/mods/ctf/ctf_map/maps
   ```
   > If you experience a problem with the above path on certain file managers, copy it without the `/` at the start.
-  > {style="note"}
+  > {style="warning"}
 
 * Create a new world in the Capture the Flag game with the `singlenode` mapgen.
 

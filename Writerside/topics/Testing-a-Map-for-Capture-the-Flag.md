@@ -1,7 +1,5 @@
 # Testing a Map for Capture the Flag
 
-
-
 ## Prerequisites
 1. Minetest version 5.6 or above.
     > If your version is outdated, download the latest from the [official Minetest website](https://www.minetest.net/).
@@ -34,7 +32,7 @@ The repository contains folders for each map. For example, the “Intervention i
 3. `map.mts`: The schematic file used to import the map into the game world. The "map" itself is inside this file.
 4. `screenshot.png`: A screenshot of the map. It should make the critical parts of the map visible, and it needs to have an aspect ratio of 3:2 (600×400px is suggested).
 
-## What are GitHub and Git?
+## GitHub and Git
 [GitHub](https://en.wikipedia.org/wiki/GitHub) is one of the many services for managing code and other projects using the version control system - [Git](https://git-scm.com/). For now, this handbook will only cover the primary ways of obtaining the files of the map you would like to test without any command line interface.
 
 ### Git Terminology
@@ -62,8 +60,7 @@ Push
 Pull Request (PR)
 : It refers to when you make changes on the fork of the repository and request to merge those changes with the main repository. Here, those who wish to make maps first fork the maps repository, create a separate branch on that fork dedicated to adding the map, and make a **pull request** to the maps repository upon completion.
 
-## How do I know which maps to review?
-#### Where can I find Map PRs?
+## Finding Map PRs
 - Go to the [CTF maps repository](https://github.com/mt-CTF/maps) using the web browser of your choice.
 - Click `Pull Requests`:
 
@@ -79,7 +76,7 @@ The Map PRs have labels that indicate their current development stage and give i
 
 ![Labels Example](label_example.png)
 
-## Fetching PR files for testing
+## Fetching PR Files for Testing
 - Go to the `Pull Requests` tab and select the PR you want to review.
 - Click on the blue text indicating the `<pr-author>:<branch-of-their-fork>`, like:
 
@@ -170,7 +167,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
     - The flag is placed in the middle of the indestructible area.
     - It has a team chest.
 - The map **should** be inescapable. This means map's **walls** and **floor** should be made of "Indestructible Barrier Glass" (`ctf_map:ind_glass`) or other indestructible blocks, or a mixture of them. The map may not have a roof while still not allowing the player to escape through it. Make sure you can't escape through the open roof!
-- It has red build-time barriers separating teams that disappear when build time is over. Check if all of these are correctly placed. Make sure no areas that need it are missing. (Might need modification on the basis of type)
+- It has red build-time barriers separating teams that disappear when build time is over. Check if all of these are correctly placed. Make sure no areas that need it are missing. (The Indestructible Red Barrier Glass, Red Barrier Stone, Water... TODO)
 - Treasure chests are functional.
 - Flags can be captured without any bugs.
   - All the team zones are to the extent of where they should be and work as intended. You can test if they function correctly by ensuring you *do not get teleported back to the base during build-time while at the edges of the map's walls and the build-time barriers*. It is also important to ensure you *get teleported back to base if you cross the barriers* (for example, by digging under the build-time barrier). You should also make sure that you *do not get teleported back to base during build-time if you dig straight down to the bottom layer* or *build up to the roof* .
