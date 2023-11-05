@@ -145,7 +145,7 @@
 
 ## 8. Building the map
 * If you are using the `singlenode` mapgen, because of the world being filled with "Artificial Ignore" (`ctf_map:ignore`), players will not be able to move around without noclip.
-* "Artificial Ignore" is a type of invisible, un-diggable, and un-pointable (you cannot select it) block. You have to set the area you want players to move in to `air` using WorldEdit. So, to make a map in the `singlenode` mapgen, you will need to enable noclip, and set the area you require for map making to air, and run:
+* "Artificial Ignore" is a type of invisible, un-diggable, and un-pointable (you cannot select it) block. You have to set the area you want players to move in with `air` using WorldEdit. So, to make a map in the `singlenode` mapgen, you will need to enable noclip, and set the area you require for map making to air, and run:
   ```
   //s air
   ```
