@@ -9,6 +9,3 @@ This GitHub pages website is a collection of handbooks for creating, testing for
 - [The Map Maker's Handbook](The-Map-Maker-s-Handbook.md): A detailed guide on the process of making a map for the Capture the Flag game.*
 - [The Map Tester's Handbook](The-Map-Tester-s-Handbook.md): A detailed guide to testing maps for the Capture the Flag game.
 - [Troubleshooting](Troubleshooting.md): ***WIP***
-
-## License
-[Header](https://github.com/CTF-handbooks/ctf-handbooks.github.io/blob/main/images/header.png): CC-BY-3.0 by [SuddenSFD](https://github.com/SuddenSFD)
