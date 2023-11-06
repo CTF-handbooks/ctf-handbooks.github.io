@@ -150,7 +150,9 @@
   //s air
   ```
 * When building your map, you can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
+  
   ![Indestructible Variants](indestructible_variants.png)
+
   > Another special node that CTF provides is the "Kill Node" (`ctf_map:killnode`). It is a glass-like, un-walkable node that does a damage of 20 HP per second when in contact. It is pointable, in other words, selectable, only in `mapedit` mode.
 
 * You should also add the following:
