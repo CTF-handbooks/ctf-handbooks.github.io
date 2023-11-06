@@ -83,7 +83,7 @@
 ## 6. Removing the surrounding terrain
 > It is your choice to build the barriers first or the map first. For this example, we are going to build the barriers first.
 > {style="note"}
->
+
 * This is optional and only applies if you're using generated terrain. If you're using the `singlenode` mapgen, you can ignore this and continue reading from [here](#7-placing-the-barriers).
 * It might be hard to place the outer barriers when the terrain outside your map area blocks your view.
 * To get rid of the extra terrain, first, select the area your map will be in with WorldEdit.
@@ -150,8 +150,8 @@
   //s air
   ```
 * When building your map, you can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
-  > Another special node that CTF provides is the "Kill Node" (`ctf_map:killnode`). It is a glass-like, un-walkable node that does a damage of 20 HP per second when in contact. It is pointable, in other words, selectable, only in `mapedit` mode.
   ![Indestructible Variants](indestructible_variants.png)
+  > Another special node that CTF provides is the "Kill Node" (`ctf_map:killnode`). It is a glass-like, un-walkable node that does a damage of 20 HP per second when in contact. It is pointable, in other words, selectable, only in `mapedit` mode.
 
 * You should also add the following:
   * Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is `5x5` blocks (the flag should be in the middle).
