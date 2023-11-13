@@ -131,7 +131,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 
 ### 3. Playing the game
 - Select the new world that you just created.
-- Disable `Creative Mode` to play the game. You can turn of `Enable Damage` as well.
+- Disable `Creative Mode` to play the game. You can turn off `Enable Damage` as well.
 - Enable the `WorldEdit` mod by pressing `Select Mods` and double-clicking the `WorldEdit` mod to enable it.
 - Then click `Play Game` to begin.
 
@@ -170,7 +170,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 - It has red build-time barriers separating teams that disappear when build time is over. Check if all of these are correctly placed. Make sure no areas that need it are missing. (The Indestructible Red Barrier Glass, Red Barrier Stone, Water... TODO)
 - Treasure chests are functional.
 - Flags can be captured without any bugs.
-    - All the team zones are to the extent of where they should be and work as intended. You can test if they function correctly by ensuring you *do not get teleported back to the base during build-time while at the edges of the map's walls and the build-time barriers*. It is also important to ensure you *get teleported back to base if you cross the barriers* (for example, by digging under the build-time barrier). You should also make sure that you *do not get teleported back to base during build-time if you dig straight down to the bottom layer* or *build up to the roof* .
+- All the team zones are to the extent of where they should be and work as intended. You can test if they function correctly by ensuring you *do not get teleported back to the base during build-time while at the edges of the map's walls and the build-time barriers*. It is also important to ensure you *get teleported back to base if you cross the barriers* (for example, by digging under the build-time barrier). You should also make sure that you *do not get teleported back to base during build-time if you dig straight down to the bottom layer* or *build up to the roof* .
 - The map is without any holes leading to the void, "misplaced" blocks/accidental inconsistencies, does not contain unsupported blocks, and so on.
 
 #### *Mechanics*

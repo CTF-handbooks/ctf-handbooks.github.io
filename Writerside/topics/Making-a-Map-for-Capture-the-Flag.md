@@ -80,15 +80,15 @@
 
   ![Air](air.png)
 
+## 6. Removing the surrounding terrain
 > It is your choice to build the barriers first or the map first. For this example, we are going to build the barriers first.
 > {style="note"}
 
-## 6. Removing the surrounding terrain
-* This is optional and only applies if you're using generated terrain.
+* This is optional and only applies if you're using generated terrain. If you're using the `singlenode` mapgen, you can ignore this and continue reading from [here](#7-placing-the-barriers).
 * It might be hard to place the outer barriers when the terrain outside your map area blocks your view.
 * To get rid of the extra terrain, first, select the area your map will be in with WorldEdit.
 
-  ![Seleceted Area](selected_area.png)
+  ![Selected Area](selected_area.png)
 
 * Once you select the area, run `//mtschemcreate <any name>`. For example:
   ```
@@ -144,13 +144,16 @@
 * You can also make a roof using any type of indestructible node such as `Indestructible Barrier Glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. So, you do not necessarily need to add a roof.
 
 ## 8. Building the map
-* If you are using the `singlenode` mapgen, players will not be able to move around without noclip. You have to set the area you want players to move in to `air` using WorldEdit. To do that, you can use the command:
+* If you are using the `singlenode` mapgen, because of the world being filled with "Artificial Ignore" (`ctf_map:ignore`), players will not be able to move around without noclip.
+* "Artificial Ignore" is a type of invisible, un-diggable, and un-pointable (you cannot select it) block. You have to set the area you want players to move in with `air` using WorldEdit. So, to make a map in the `singlenode` mapgen, you will need to enable noclip, and set the area you require for map making to air, and run:
   ```
   //s air
   ```
 * When building your map, you can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
-
+  
   ![Indestructible Variants](indestructible_variants.png)
+
+  > Another special node that CTF provides is the "Kill Node" (`ctf_map:killnode`). It is a glass-like, un-walkable node that does a damage of 20 HP per second when in contact. It is pointable, in other words, selectable, only in `mapedit` mode.
 
 * You should also add the following:
   * Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is `5x5` blocks (the flag should be in the middle).
