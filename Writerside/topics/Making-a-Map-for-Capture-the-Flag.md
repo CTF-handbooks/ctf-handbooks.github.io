@@ -263,7 +263,7 @@
   >  ```
   >  ![Map Treasures](map_treasures.png)
 
-* The `Skybox` is an image of a sky that will replace the default Minetest sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes.
+* The `Skybox` is an image of a sky that will replace the default Minetest sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes. ([***WIP***](https://github.com/CTF-handbooks/ctf-handbooks.github.io/issues/9))
 
   ![Skyboxes](skyboxes.png)
 

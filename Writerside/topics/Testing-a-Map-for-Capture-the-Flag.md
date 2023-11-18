@@ -142,7 +142,12 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 > {style="note"}
 
 - Check the `map.conf` file's `game_modes` field, if the one you are voting for in-game is not included in the list, vote `0` and go to the mode the map is set for... (To be changed based on [#1241](https://github.com/MT-CTF/capturetheflag/pull/1241/)).
-- Upon starting the game, you will be playing like how the server works, with a random map at first. To choose your map, run `/ctf_next -f <map_folder>`. In the case of the example PR, it would be `/ctf_next -f sewer_village`. (TODO)
+- Upon starting the game, you will be playing like how the server works, with a random map at first. To choose your map, run `/ctf_next -f <map_folder>`. In the case of the example PR, it would be `/ctf_next -f sewer_village`.
+- If you are playing the map in a mode not in the map's list of supported modes, you will receive a warning with the command you need to run to switch to a supported mode. E.g.:
+
+![Unsupported Mode Warning](unsupported_mode.png)
+
+- In the above example, you can do `/ctf_next -f classic skies_of_land`.
 
 > Common commands:
 > - To end build time, use the `/ctf_start` command.
@@ -167,7 +172,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
     - The flag is placed in the middle of the indestructible area.
     - It has a team chest.
 - The map **should** be inescapable. This means map's **walls** and **floor** should be made of "Indestructible Barrier Glass" (`ctf_map:ind_glass`) or other indestructible blocks, or a mixture of them. The map may not have a roof while still not allowing the player to escape through it. Make sure you can't escape through the open roof!
-- It has red build-time barriers separating teams that disappear when build time is over. Check if all of these are correctly placed. Make sure no areas that need it are missing. (The Indestructible Red Barrier Glass, Red Barrier Stone, Water... TODO)
+- It has red build-time barriers separating teams that disappear when build time is over. Check if all of these are correctly placed. Make sure no areas that need it are missing.
 - Treasure chests are functional.
 - Flags can be captured without any bugs.
 - All the team zones are to the extent of where they should be and work as intended. You can test if they function correctly by ensuring you *do not get teleported back to the base during build-time while at the edges of the map's walls and the build-time barriers*. It is also important to ensure you *get teleported back to base if you cross the barriers* (for example, by digging under the build-time barrier). You should also make sure that you *do not get teleported back to base during build-time if you dig straight down to the bottom layer* or *build up to the roof* .
