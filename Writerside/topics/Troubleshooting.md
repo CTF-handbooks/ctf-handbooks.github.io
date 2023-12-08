@@ -1,6 +1,6 @@
 # Troubleshooting
 
-> Always remember to ensure that your client is **up-to-date**. The recommended Minetest version for the latest CTF game is **5.6 and above**, per its [ContentDB page](https://content.minetest.net/packages/rubenwardy/capturetheflag/).
+> Always ensure that your client is **up-to-date**. The recommended Minetest version for the latest CTF game is **5.6 and above**, per its [ContentDB page](https://content.minetest.net/packages/rubenwardy/capturetheflag/).
 > {style="warning"}
 
 * Errors in the chat when testing a map; the game displays the cause of the error as red error messages in the chat. They are usually accompanied by improper functioning of the affected entities. For example, errors indicating
