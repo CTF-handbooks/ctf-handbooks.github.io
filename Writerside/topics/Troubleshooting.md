@@ -11,11 +11,17 @@
 
 > The easiest way to obtain a complete log of errors and other information is by reading through the `debug.txt` file in `<YOUR MINETEST FOLDER>`. The latest errors that you have experienced will be located close to the end of the file. {style="note"}
 
-* Special case: [Game Freezes on Map Load](#game-freezes-on-map-load)
+* *Special cases:*
+  * [Game Freezes on Map Load](#game-freezes-on-map-load)
+  * For RAM/Memory related crashes: [Low RAM Mode](#low-ram-mode)
 
 > If none of the solutions on this page work, you can reach out for help on the [Minetest CTF Forum Topic](https://forum.minetest.net/viewtopic.php?f=10&t=13157) or the [`#maps` channel on the CTF Discord server](https://discord.gg/vcZTRPX). Be sure to attach the relevant information, such as error messages and the process that led to your problem!
 
-### Low RAM Mode (WIP)
+### Low RAM Mode
+> CTF can sometimes reduce CPU usage by calculating things once and putting them in the RAM. Turn on low ram mode if you're getting crashes related to RAM/Memory usage.
+
+  ![Low RAM Mode](low-ram-mode.png){width=433}
+
 
 ## Game Freezes on Map Load
 * When testing a map, one might encounter the problem of the game freezing upon loading a map.
