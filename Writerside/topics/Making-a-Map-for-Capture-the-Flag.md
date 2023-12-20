@@ -104,6 +104,13 @@
   ![Map Area](map_area.png)
 
 ## 7. Placing the barriers
+* An easy way to place the outer barriers is to run the following command and select your whole map by supplying the two coordinates as instructed in chat:
+  ```
+  /ctf_barrier place_outer
+  ```
+  > Doing this will surround the selected area with an indestructible glass/stone barrier, replacing all the nodes in the outermost layer of the selected area. **This action is not revertible.**
+  >{style="warning"}
+* If you would like more customization with the outer barriers, you can use WorldEdit to place them instead:
 * To make the bottom of the map indestructible so that players can't escape, select the bottom layer of your map and replace it with any indestructible node through the WorldEdit GUI, or the command `//s <node itemstring>`. For example:
   ```
   //s ctf_map:ind_stone
@@ -114,11 +121,11 @@
   > {style="note"}
 * Your outer barriers can be placed outside your map area, override the outer slice of your map, or leave parts of the map terrain/structures outside the barrier.
 
-![Border 1](border1.png)
+  ![Border 1](border1.png)
 
-![Border 2](border2.png)
+  ![Border 2](border2.png)
 
-![Border 3](border3.png)
+  ![Border 3](border3.png)
 
 * To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and set it to `Indestructible Barrier Glass` (`ctf_map:ind_glass`) or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
   ```
@@ -166,23 +173,32 @@
 * Your build-time barrier should be in the middle of the map. It is fine if it can't be precisely in the middle.
   > You can press <kbd>F5</kbd> to show your current coordinates.
   > {style="note"}
-* The `Indestructible Red Barrier Glass` will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.
-* To do this, select the area where the build-time barrier wall will be with WorldEdit (you can include terrain/structures in the selection too; don't worry they won't be replaced), and run:
+* To place the build-time barriers, run the following command in chat and select the area where your build-time barrier wall will be by supplying the two coordinates as instructed in chat (you can include terrain/structures in the selection too; don't worry they won't be replaced):
   ```
-  //r air ctf_map:ind_glass_red
+  /ctf_barrier place_buildtime
   ```
-* If there are stone nodes within the barrier wall, you can replace them with `Indestructible Red Barrier Stone`, which will turn into normal stone once the match starts. To do this, maintain the same selected area as before and run:
+* The above will replace certain nodes with the corresponding build-time barrier, creating a build-time wall. To remove a build-time wall or any part of it, run the following command in chat and supply the coordinates:
   ```
-  //r default:stone ctf_map:ind_stone_red
+  /ctf_barrier remove_buildtime
   ```
-* If there is water within the barrier wall, you can replace it with `Indestructible Water Barrier Glass`, which will turn into water once the match starts. To do this, maintain the same selected area as before and run:
-  ```
-  //r default:water_source ctf_map:ind_water
-  ```
-* If there is lava within the barrier wall, you can replace it with `Indestructible Lava Barrier Stone`, which will turn into lava once the match starts. To do this, maintain the same selected area as before and run:
-  ```
-  //r default:lava_source ctf_map:ind_lava
-  ```
+* To place the build-time barrier wall with WorldEdit, you can do the following:
+  * The `Indestructible Red Barrier Glass` will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.
+  To do this, select the area where the build-time barrier wall will be with WorldEdit (you can include terrain/structures in the selection too; don't worry they won't be replaced), and run:
+    ```
+    //r air ctf_map:ind_glass_red
+    ```
+  * If there are stone nodes within the barrier wall, you can replace them with `Indestructible Red Barrier Stone`, which will turn into normal stone once the match starts. To do this, maintain the same selected area as before and run:
+    ```
+    //r default:stone ctf_map:ind_stone_red
+    ```
+  * If there is water within the barrier wall, you can replace it with `Indestructible Water Barrier Glass`, which will turn into water once the match starts. To do this, maintain the same selected area as before and run:
+    ```
+    //r default:water_source ctf_map:ind_water
+    ```
+  * If there is lava within the barrier wall, you can replace it with `Indestructible Lava Barrier Stone`, which will turn into lava once the match starts. To do this, maintain the same selected area as before and run:
+    ```
+    //r default:lava_source ctf_map:ind_lava
+    ```
 * If there are still breakable nodes within the barrier wall, you can leave them there, because if you set your team-zones correctly later on, players should be teleported back to base if they cross the barrier wall.
 
 ## 10. Selecting the map area
