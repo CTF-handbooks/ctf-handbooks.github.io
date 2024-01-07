@@ -8,4 +8,4 @@ This GitHub pages website is a collection of handbooks for basic guidelines on a
 ## Contents
 - [The Map Maker's Handbook](The-Map-Maker-s-Handbook.md): A detailed guide on the process of making a map for the Capture the Flag game.
 - [The Map Tester's Handbook](The-Map-Tester-s-Handbook.md): A detailed guide on testing maps for the Capture the Flag game.
-- [Troubleshooting](Troubleshooting.md): ***WIP***
+- [Troubleshooting](Troubleshooting.md): A guide on troubleshooting commonly experienced issues during the map making or map testing process.
