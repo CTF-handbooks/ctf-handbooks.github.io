@@ -6,7 +6,7 @@
     </variables>
     <build-profile instance="instance_id"/>
     <footer>
-        <copyright>2023 s20, GreenBlob, and all those that helped during the process</copyright>
+        <copyright>2024 s20, GreenBlob, and all those that helped during the process</copyright>
         <link href="https://github.com/MT-CTF/capturetheflag/blob/master/menu/header.png">Header:</link>
         <link href="https://github.com/SuddenSFD">CC-BY-3.0 by SuddenSFD</link>
         <link href="https://github.com/CTF-handbooks/ctf-handbooks.github.io">Website source</link>
