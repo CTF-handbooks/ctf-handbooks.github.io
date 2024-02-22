@@ -115,10 +115,10 @@
     ```
     //s ctf_map:ind_stone
     ```
-  >   To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for "append", and enable `Append item name`.
-  >
-  >   You can find a list of commonly used itemstrings during map making [here](Commonly-Used-Itemstrings-List.md).
-  >   {style="note"}
+    > To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for "append", and enable `Append item name`.
+    >
+    > You can find a list of commonly used itemstrings during map making [here](Commonly-Used-Itemstrings-List.md).
+    > {style="note"}
   * Your outer barriers can be placed outside your map area, override the outer slice of your map, or leave parts of the map terrain/structures outside the barrier.
 
     ![Border 1](border1.png)
