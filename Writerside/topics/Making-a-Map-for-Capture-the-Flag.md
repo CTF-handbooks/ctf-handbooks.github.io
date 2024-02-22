@@ -10,7 +10,7 @@
   > Once you have downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/games`.
   > {style="note"}
 * WorldEdit mod for Minetest. <sup>(_optional_)</sup>
-  > Although this is optional, it is recommended that you install WorldEdit. Creating maps requires you to build the borders and barriers of the map manually. This tool speeds the process up and is also helpful when building other desired map structures.
+  > Although this is optional, it is recommended that you install WorldEdit. This tool is helpful when building desired map structures, and it can also speed up the process of creating large builds.
   >
   > You can install WorldEdit from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/sfan5/worldedit/).
   >
