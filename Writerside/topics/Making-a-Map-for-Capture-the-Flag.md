@@ -111,44 +111,44 @@
   > Doing this will surround the selected area with an indestructible glass/stone barrier, replacing all the nodes in the outermost layer of the selected area. **This action is not revertible.**
   >{style="warning"}
 * If you would like more customization with the outer barriers, you can use WorldEdit to place them instead:
-* To make the bottom of the map indestructible so that players can't escape, select the bottom layer of your map and replace it with any indestructible node through the WorldEdit GUI, or the command `//s <node itemstring>`. For example:
-  ```
-  //s ctf_map:ind_stone
-  ```
-  > To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for "append", and enable `Append item name`.
+  * To make the bottom of the map indestructible so that players can't escape, select the bottom layer of your map and replace it with any indestructible node through the WorldEdit GUI, or the command `//s <node itemstring>`. For example:
+    ```
+    //s ctf_map:ind_stone
+    ```
+  >   To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for "append", and enable `Append item name`.
   >
-  > You can find a list of commonly used itemstrings during map making [here](Commonly-Used-Itemstrings-List.md).
-  > {style="note"}
-* Your outer barriers can be placed outside your map area, override the outer slice of your map, or leave parts of the map terrain/structures outside the barrier.
+  >   You can find a list of commonly used itemstrings during map making [here](Commonly-Used-Itemstrings-List.md).
+  >   {style="note"}
+  * Your outer barriers can be placed outside your map area, override the outer slice of your map, or leave parts of the map terrain/structures outside the barrier.
 
-  ![Border 1](border1.png)
+    ![Border 1](border1.png)
 
-  ![Border 2](border2.png)
+    ![Border 2](border2.png)
 
-  ![Border 3](border3.png)
+    ![Border 3](border3.png)
 
-* To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and set it to `Indestructible Barrier Glass` (`ctf_map:ind_glass`) or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
-  ```
-  //s ctf_map:ind_glass
-  ```
-  This method will penetrate the terrain/structures if you have some within your selected area.
+  * To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and set it to `Indestructible Barrier Glass` (`ctf_map:ind_glass`) or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
+    ```
+    //s ctf_map:ind_glass
+    ```
+    This method will penetrate the terrain/structures if you have some within your selected area.
 
-  ![Borders Destroy](borders_destroy.png)
+    ![Borders Destroy](borders_destroy.png)
 
-* To replace the terrain with a type of indestructible node and everything that is not terrain with the barrier glass like the image below, you can replace-inverse air with your indestructible node and then replace air with `Indestructible Barrier Glass`.
+  * To replace the terrain with a type of indestructible node and everything that is not terrain with the barrier glass like the image below, you can replace-inverse air with your indestructible node and then replace air with `Indestructible Barrier Glass`.
 
-  ![Mixed Barrier](mixed_barrier.png)
+    ![Mixed Barrier](mixed_barrier.png)
 
-* To do that, select the area where the barrier will be with WorldEdit and replace-inverse air with your indestructible node through the WorldEdit GUI or using `//ri air <node itemstring>`. For example:
-  ```
-  //ri air ctf_map:ind_stone
-  ```
-* Then, without selecting a new area, replace `air` with `Indestructible Barrier Glass` using the WorldEdit GUI, or through the command:
-  ```
-  //r air ctf_map:ind_glass
-  ```
-* After finishing your first barrier wall, proceed to build the other 3 sides of the barrier.
-* You can also make a roof using any type of indestructible node such as `Indestructible Barrier Glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. So, you do not necessarily need to add a roof.
+  * To do that, select the area where the barrier will be with WorldEdit and replace-inverse air with your indestructible node through the WorldEdit GUI or using `//ri air <node itemstring>`. For example:
+    ```
+    //ri air ctf_map:ind_stone
+    ```
+  * Then, without selecting a new area, replace `air` with `Indestructible Barrier Glass` using the WorldEdit GUI, or through the command:
+    ```
+    //r air ctf_map:ind_glass
+    ```
+  * After finishing your first barrier wall, proceed to build the other 3 sides of the barrier.
+  * You can also make a roof using any type of indestructible node such as `Indestructible Barrier Glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. So, you do not necessarily need to add a roof.
 
 ## 8. Building the map
 * If you are using the `singlenode` mapgen, because of the world being filled with "Artificial Ignore" (`ctf_map:ignore`), players will not be able to move around without noclip.
