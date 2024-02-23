@@ -1,7 +1,7 @@
 # Making a Map for Capture the Flag
 
 ## 1. Required tools
-* Minetest version 5.6 or above.
+* Minetest version 5.7 or above. The latest stable version is always recommended.
   > If you don't have Minetest installed, you can download it from the [official Minetest website](https://www.minetest.net/).
   > {style="note"}
 * Capture the Flag game for Minetest.
