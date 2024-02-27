@@ -1,7 +1,7 @@
 # Testing a Map for Capture the Flag
 
 ## Prerequisites
-1. Minetest version 5.6 or above.
+1. Minetest version 5.7 or above. The latest stable version is always recommended.
    > If your version is outdated, download the latest from the [official Minetest website](https://www.minetest.net/).
    > {style="note"}
 2. The `Capture the Flag` game. To get it,
