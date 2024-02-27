@@ -29,10 +29,10 @@
 * Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause  problems.
 
 ## 3. Creating the world
-* After opening Minetest, go to settings and under Capture the Flag, enable `Low RAM mode`. This is done to prevent the game from crashing when making a map.
+* After opening Minetest, go to settings and under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
   
   ![enable-low-ram-mode.png](enable-low-ram-mode.png)
-* Exit settings and select the `Capture the Flag` game.
+* Return back and make sure you are in the `Start Game` tab. Then, select the `Capture the Flag` game.
 
   ![Game Icon](game_icon.png)
 * Create a new world. You can use any mapgen. If you would like to use generated terrain, you can choose the `v7` or `flat` mapgen. If you plan on building the terrain/structures yourself, you can choose the `singlenode` mapgen.
