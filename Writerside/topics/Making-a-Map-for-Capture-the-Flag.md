@@ -31,7 +31,7 @@
 ## 3. Creating the world
 * After opening Minetest, go to settings and under Capture the Flag, enable `Low RAM mode`. This is done to prevent the game from crashing when making a map.
   
-  ![enalbe-low-ram-mode.png](enalbe-low-ram-mode.png)
+  ![enable-low-ram-mode.png](enable-low-ram-mode.png)
 * Exit settings and select the `Capture the Flag` game.
 
   ![Game Icon](game_icon.png)
