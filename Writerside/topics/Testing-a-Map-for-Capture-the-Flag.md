@@ -117,7 +117,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
   You can check for some of these before or after testing the map in-game.
 
 ### 2. Making the world
-- Open your Minetest client and go to settings and under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
+- Open your Minetest client and go to settings. Under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
 
   ![enable-low-ram-mode.png](enable-low-ram-mode.png)
 - Return back and make sure you are in the `Start Game` tab.
@@ -137,6 +137,8 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 - Disable `Creative Mode` to play the game. You can turn off `Enable Damage` as well.
 - Enable the `WorldEdit` mod by pressing `Select Mods` and double-clicking the `WorldEdit` mod to enable it.
 - Then click `Play Game` to begin.
+
+> If you find yourself encountering issues while testing, please refer [Troubleshooting](Troubleshooting.md). For problems other than the ones mentioned in [Troubleshooting](Troubleshooting.md) (making sure your Minetest client is **up-to-date**), you can contact the Map Author in your [review](#7-posting-your-review) on GitHub regarding it or get support through links in the [Welcome Page](starter-topic.md).
 
 ### 4. Selecting the Map
 > You will need the `ctf_admin` privilege to run most of the commands in this handbook. So, grant yourself the privs using `/grantme ctf_admin`. If you would like other privileges such as `fly`, `nolcip`, `fast`, etc., you can run `/grantme all`.
