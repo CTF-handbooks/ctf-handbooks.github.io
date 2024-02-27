@@ -117,8 +117,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
   You can check for some of these before or after testing the map in-game.
 
 ### 2. Making the world
-- Open your Minetest client
-- Go to settings and under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
+- Open your Minetest client and go to settings and under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
 
   ![enable-low-ram-mode.png](enable-low-ram-mode.png)
 - Return back and make sure you are in the `Start Game` tab.
