@@ -11,4 +11,4 @@ Previous versions of the handbooks can be found in the archived repositories bel
 ## Media License
 [Capture the Flag header](images/header.png): [CC BY 3.0 Unported](https://creativecommons.org/licenses/by/3.0/) by [SuddenSFD](https://github.com/SuddenSFD).
 
-All other media is licensed under [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) where applicable.
+All other media is licensed under [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) where applicable (some screenshots contain [Minetest Game](https://github.com/minetest/minetest_game) textures, the majority of which are licensed [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/)).
