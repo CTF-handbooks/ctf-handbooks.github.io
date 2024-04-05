@@ -1,20 +1,27 @@
 # How to contribute to CTF Handbooks
 
 ## Making Changes
-The content of the handbooks themselves are located under the [`Writerside`](./Writerside) folder. There are two ways you can contribute to these: (1) [Using Writerside](#using-writerside) *(recommended)* and (2) [Without using Writerside](#without-using-writerside).
+The content of the handbooks are located under the [`Writerside`](./Writerside) folder as [Markdown](https://www.markdownguide.org/getting-started/) files. There are two ways you can contribute to these: (1) [Using Writerside](#using-writerside) and (2) [Without using Writerside](#without-using-writerside).
 
 ### Using Writerside
 1. Install [JetBrains Writerside](https://www.jetbrains.com/writerside/) (version `2023.3`, build `233.14938`) *OR* [Writerside IDE Plugin](https://plugins.jetbrains.com/plugin/20158-writerside?_gl=1%2All6kto%2A_ga%2ANDc2OTczNjcxLjE3MTIyNDEwNzM.%2A_ga_9J976DJZ68%2AMTcxMjI0ODM2Ny4yLjEuMTcxMjI0ODgwOS40Ny4wLjA.) (version `2024.03.233.14938`) on a compatible JetBrains IDE.
-2. (A proper way to add cloning instructions in here)
-3. After (xyz), open the folder in the Writerside application/the JetBrains IDE.
-4. Navigate to the Writerside (link to the docs later)
-5. Make your changes
-6. (Build...)
-7. Separate commits plz?
+2. [Fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) and [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository on your local machine.
+3. Then, open cloned repository in the Writerside application or a JetBrains IDE equipped with the Wrtierside Plugin.
+5. Now, you can make your changes. Read the [Writerside documentation](https://www.jetbrains.com/help/writerside/getting-started.html#install) to learn more on how to use it.
+6. Please use separate [commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) in which you edit the markdown files and a separate one in which you re-build the website code with your changes.
+7. To re-build,
+   1. Follow the first step in [building locally](https://www.jetbrains.com/help/writerside/local-build.html).
+   2. You can choose any name for the configuration. Leave `Allow multiple instances` and `Store as project file` unticked.
+   3. Keep the default directory specification (root directory of the project) and click `Run`.
+   4. Writerside will generate a compressed archive containing the update website code. Extract it in the root of the project
+   5. Copy the files inside of the extracted folder and paste them into the root of the project. This should modify the website code files. 
+   6. Delete the extracted build folder and the build archive.
+   7. Then, commit the re-build. Remember to keep this commit separate from the modification of the markdown content.
 6. [Submit your changes](#submitting-changes)
 
 ### Without using Writerside
-If you are editing without Writerside, (please mention it in the PR?) maintainers will have to generate ...me sleepy so me commit...
+- If you are editing without Writerside, the maintainers of the handbooks will have to build the website code themselves.
+- To contribute to the handbooks in this case, you may make your changes to the markdown files in the [`Writerside`](./Writerside) folder, and [submit them](#submitting-changes).
 
 ## Submitting Changes
 Please make a [GitHub Pull Request to ctf-handbooks.github.io](https://github.com/CTF-handbooks/ctf-handbooks.github.io/compare) with a description of your changes if they are not explicitly mentioned through the title. Read more about Pull Requests [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
