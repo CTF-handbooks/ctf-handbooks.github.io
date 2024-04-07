@@ -22,7 +22,7 @@
 ```
 The main folders you would need to know are the [`images`](./Writerside/images) and [`topics`](./Writerside/topics) sub-folders within the [`Writerside`](./Writerside) folder.
 - [`images`](./Writerside/images): This folder contains all the image media used in the handbook. When adding new images, place them in this folder.
-- [`topics`](./Writerside/topics): This folder is the home to all the Handbook markdown files. When adding new chapters [without using Writerside](#without-using-writerside), make new markdown files for them here. (Needs verification).
+- [`topics`](./Writerside/topics): This folder is the home to all the Handbook markdown files. When adding new chapters [without using Writerside](#without-using-writerside), make new markdown files for them here.
 
 ---
 
