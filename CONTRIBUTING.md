@@ -39,7 +39,7 @@ The below sections will introduce you to the two ways in which you can make chan
    2. You can choose any name for the configuration. Leave `Allow multiple instances` and `Store as project file` unticked.
    3. Keep the default directory specification (root directory of the project) and click `Run`.
    4. Writerside will generate a compressed archive containing the updated website code. Extract it in the root of the project.
-   5. Copy the files in the extracted folder and paste them into the root of the project. This should modify the website code files. 
+   5. Copy the files in the extracted folder and paste them into the root of the project. This should modify the website code files. If asked to whether replace or skip duplicated files, choose replace.
    6. Delete the extracted build folder and the build archive.
    7. Then, commit the re-build changes. Remember to keep this commit separate from the modification of the markdown content.
 7. [Submit your changes](#submitting-changes)
