@@ -45,9 +45,7 @@ The below sections will introduce you to the two ways in which you can make chan
 7. [Submit your changes](#submitting-changes)
 
 ### Without using Writerside
-> **TODO: NEEDS TESTING**
-
-- If you are editing without Writerside, the maintainers of the handbooks will have to build the website code themselves.
+- If you are editing without Writerside, the maintainers of CTF handbooks will have to build the website code themselves.
 - To contribute to the handbooks in this case, you may make your changes to the handbook markdown files and [submit the changes](#submitting-changes) accordingly.
 
 ---
