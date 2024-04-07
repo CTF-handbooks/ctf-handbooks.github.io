@@ -1,7 +1,22 @@
 # How to contribute to CTF Handbooks
 
 ## Making Changes to the Handbooks
-The content of the handbooks are located under the [`Writerside`](./Writerside) folder as [Markdown](https://www.markdownguide.org/getting-started/) files. There are two ways you can contribute to these: (1) [Using Writerside](#using-writerside) and (2) [Without using Writerside](#without-using-writerside).
+The content of the handbooks are under the [`Writerside`](./Writerside) folder as [Markdown](https://www.markdownguide.org/getting-started/) files. See .There are two ways you can contribute to these: (1) [Using Writerside](#using-writerside) and (2) [Without using Writerside](#without-using-writerside).
+
+### Structure of the Writerside Folder
+```
+./Writerside/
+├───cfg/
+├───images/
+├───topics/
+├───c.list
+├───ch.tree
+├───v.list
+└───writerside.cfg
+```
+The main folders you would need to know are the [`images`](./Writerside/images) and [`topics`](./Writerside/topics) folders within the [`Writerside`](./Writerside) folder.
+- [`images`](./Writerside/images): This contains all the image media used in the handbook. When adding new images, place them in this folder.
+- [`topics`](./Writerside/topics): This folder is the home to all the Handbook markdown files. When adding new chapters [without using Writerside](#without-using-writerside), make new markdown files for them here. (Needs verification).
 
 ### Using Writerside
 1. Install [JetBrains Writerside](https://www.jetbrains.com/writerside/) (version `2023.3`, build `233.14938`) *OR* [Writerside IDE Plugin](https://plugins.jetbrains.com/plugin/20158-writerside?_gl=1%2All6kto%2A_ga%2ANDc2OTczNjcxLjE3MTIyNDEwNzM.%2A_ga_9J976DJZ68%2AMTcxMjI0ODM2Ny4yLjEuMTcxMjI0ODgwOS40Ny4wLjA.) (version `2024.03.233.14938`) on a compatible JetBrains IDE.
