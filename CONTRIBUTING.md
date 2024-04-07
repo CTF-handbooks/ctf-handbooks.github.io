@@ -1,7 +1,7 @@
 # How to contribute to CTF Handbooks
 
 ## Making Changes to the Handbooks
-The content of the handbooks are under the [`Writerside`](./Writerside) folder as [Markdown](https://www.markdownguide.org/getting-started/) files. See .There are two ways you can contribute to these: (1) [Using Writerside](#using-writerside) and (2) [Without using Writerside](#without-using-writerside).
+The content of the handbooks are under the [`Writerside`](./Writerside) folder as [Markdown](https://www.markdownguide.org/getting-started/) files.
 
 ### Structure of the Writerside Folder
 ```
@@ -17,6 +17,10 @@ The content of the handbooks are under the [`Writerside`](./Writerside) folder a
 The main folders you would need to know are the [`images`](./Writerside/images) and [`topics`](./Writerside/topics) folders within the [`Writerside`](./Writerside) folder.
 - [`images`](./Writerside/images): This contains all the image media used in the handbook. When adding new images, place them in this folder.
 - [`topics`](./Writerside/topics): This folder is the home to all the Handbook markdown files. When adding new chapters [without using Writerside](#without-using-writerside), make new markdown files for them here. (Needs verification).
+
+---
+
+The below chapters will introduce you to two ways in which you can make changes to the content of handbooks: (1) [Using Writerside](#using-writerside) and (2) [Without using Writerside](#without-using-writerside).
 
 ### Using Writerside
 1. Install [JetBrains Writerside](https://www.jetbrains.com/writerside/) (version `2023.3`, build `233.14938`) *OR* [Writerside IDE Plugin](https://plugins.jetbrains.com/plugin/20158-writerside?_gl=1%2All6kto%2A_ga%2ANDc2OTczNjcxLjE3MTIyNDEwNzM.%2A_ga_9J976DJZ68%2AMTcxMjI0ODM2Ny4yLjEuMTcxMjI0ODgwOS40Ny4wLjA.) (version `2024.03.233.14938`) on a compatible JetBrains IDE.
@@ -37,6 +41,8 @@ The main folders you would need to know are the [`images`](./Writerside/images) 
 ### Without using Writerside
 - If you are editing without Writerside, the maintainers of the handbooks will have to build the website code themselves.
 - To contribute to the handbooks in this case, you may make your changes to the handbook markdown files (located in the [`Writerside`](./Writerside) folder), and [submit them](#submitting-changes).
+
+---
 
 ## Submitting Changes
 Please make a [GitHub Pull Request to ctf-handbooks.github.io](https://github.com/CTF-handbooks/ctf-handbooks.github.io/compare) with a description of your changes if they are not explicitly mentioned through the title. Read more about Pull Requests [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
