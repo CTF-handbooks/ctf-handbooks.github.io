@@ -45,8 +45,31 @@ The below sections will introduce you to the two ways in which you can make chan
 7. [Submit your changes](#submitting-changes)
 
 ### Without using Writerside
-- If you are editing without Writerside, the maintainers of CTF handbooks will have to build the website code themselves.
-- To contribute to the handbooks in this case, you may make your changes to the handbook markdown files and [submit the changes](#submitting-changes) accordingly.
+- If you are editing without Writerside, the maintainers of CTF handbooks will have to build the website code themselves. You may add new topics or modify existing ones. Modifying is simple enough, but you will have to go through a few steps for adding new topics.
+
+**Adding new topics**:
+1. Taking "Foo Bar Test" as a topic name, you will have to first create a `.md` file in the [`topics`](./Writerside/topics) folder as `Foo-Bar-Test.md` with the following contents:
+   ```markdown
+   # Foo Bar Test
+   
+   (add your contents here...)
+   ```
+2. If you were to add the topic using Writerside, it would automatically modify the contents of [`ch.tree`](./Writerside/ch.tree) to add the new topic. Here, you'll have to add them manually. For example:
+```xml
+(...)
+
+<instance-profile id="ch"
+                 name="CTF Handbooks"
+                 start-page="starter-topic.md">
+
+    <toc-element topic="Foo-Bar-Test.md"/>
+    <toc-element topic="starter-topic.md"/>
+    (...)
+    <toc-element topic="Troubleshooting.md"/>
+</instance-profile>
+```
+
+After making your changes, you may [submit your changes](#submitting-changes).
 
 ---
 
