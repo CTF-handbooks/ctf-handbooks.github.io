@@ -45,7 +45,7 @@ The below sections will introduce you to the two ways in which you can make chan
 7. [Submit your changes](#submitting-changes)
 
 ### Without using Writerside
-- If you are editing without Writerside, the maintainers of CTF handbooks will have to build the website code themselves. You may add new topics or modify existing ones. Modifying is simple enough, but you will have to go through a few steps for adding new topics.
+If you are editing without Writerside, the maintainers of CTF handbooks will have to build the website code themselves. You may add new topics or modify existing ones. Modifying is simple enough, but you will have to go through a few steps for adding new topics.
 
 **Adding new topics**:
 1. Taking "Foo Bar Test" as a topic name, you will have to first create a `.md` file in the [`topics`](./Writerside/topics) folder as `Foo-Bar-Test.md` with the following contents:
@@ -54,7 +54,7 @@ The below sections will introduce you to the two ways in which you can make chan
    
    (add your contents here...)
    ```
-2. If you were to add the topic using Writerside, it would automatically modify the contents of [`ch.tree`](./Writerside/ch.tree) to add the new topic. Here, you'll have to add them manually. For example:
+2. If you were to add the topic using Writerside, it would automatically modify the contents of [`ch.tree`](./Writerside/ch.tree) when adding the new topic. Here though, you'll have to add them manually. Please take note of the structure of topics and sub-topics as well to prevent any errors. For example:
 ```xml
 (...)
 
