@@ -1,6 +1,10 @@
 # Testing a Map for Capture the Flag
 
 ## Prerequisites
+
+> It is not recommended to test maps on a mobile device - Android or iOS/iPadOS.
+> {style="warning"}
+
 1. Minetest version 5.7 or above. The latest stable version is always recommended.
    > If your version is outdated, download the latest from the [official Minetest website](https://www.minetest.net/).
    > {style="note"}
