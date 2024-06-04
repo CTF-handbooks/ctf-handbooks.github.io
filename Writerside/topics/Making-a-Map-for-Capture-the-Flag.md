@@ -5,7 +5,7 @@
 > It is not recommended to make maps on a mobile device - Android or iOS/iPadOS. 
 > {style="warning"}
 
-* Minetest version 5.7 or above. The latest stable version is always recommended.
+* Minetest version 5.8 or above. The latest stable version is always recommended.
   > If you don't have Minetest installed, you can download it from the [official Minetest website](https://www.minetest.net/).
   > {style="note"}
 * Capture the Flag game for Minetest.
