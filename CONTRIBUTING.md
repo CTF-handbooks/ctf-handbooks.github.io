@@ -29,7 +29,7 @@ The main folders you would need to know are the [`images`](./Writerside/images) 
 The below sections will introduce you to the two ways in which you can make changes to the content of handbooks: (1) [Using Writerside](#using-writerside) and (2) [Without using Writerside](#without-using-writerside).
 
 ### Using Writerside
-1. Install [JetBrains Writerside](https://www.jetbrains.com/writerside/) (version `2023.3`, build `233.14938`) *OR* [Writerside IDE Plugin](https://plugins.jetbrains.com/plugin/20158-writerside?_gl=1%2All6kto%2A_ga%2ANDc2OTczNjcxLjE3MTIyNDEwNzM.%2A_ga_9J976DJZ68%2AMTcxMjI0ODM2Ny4yLjEuMTcxMjI0ODgwOS40Ny4wLjA.) (version `2024.03.233.14938`) on a compatible JetBrains IDE.
+1. Install [JetBrains Writerside](https://www.jetbrains.com/writerside/) (version `2024.1`, build `241.15989`) *OR* [Writerside IDE Plugin](https://plugins.jetbrains.com/plugin/20158-writerside?_gl=1%2All6kto%2A_ga%2ANDc2OTczNjcxLjE3MTIyNDEwNzM.%2A_ga_9J976DJZ68%2AMTcxMjI0ODM2Ny4yLjEuMTcxMjI0ODgwOS40Ny4wLjA.) (version `2024.04.241.15989.11`) on a compatible JetBrains IDE.
 2. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository and [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your forked repository on your local machine.
 3. Then, open the cloned repository in the Writerside application or a JetBrains IDE equipped with the Writerside Plugin.
 4. Now you can make your changes. Read the [Writerside documentation](https://www.jetbrains.com/help/writerside/getting-started.html#install) to learn how to use it.
