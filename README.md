@@ -16,3 +16,10 @@ Please see [`CONTRIBUTING.md`](./CONTRIBUTING.md) for information on how to cont
 - [CTF Handbooks' GitHub organisation logo](org-icon.png): [CY BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) by Cit.
 
 All other media is licensed under [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) where applicable (some screenshots contain [Minetest Game](https://github.com/minetest/minetest_game) textures, the majority of which are licensed [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/)).
+
+## Contributors
+<a href="https://github.com/CTF-handbooks/ctf-handbooks.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CTF-handbooks/ctf-handbooks.github.io" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
