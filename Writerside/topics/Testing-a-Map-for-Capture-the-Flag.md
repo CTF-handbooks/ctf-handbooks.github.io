@@ -5,7 +5,7 @@
 > It is not recommended to test maps on a mobile device - Android or iOS/iPadOS.
 > {style="warning"}
 
-1. Minetest version 5.8 or above. The latest stable version is always recommended.
+1. Minetest version 5.7 or above. The latest stable version is always recommended.
    > If your version is outdated, download the latest from the [official Minetest website](https://www.minetest.net/).
    > {style="note"}
 2. The `Capture the Flag` game. To get it,
