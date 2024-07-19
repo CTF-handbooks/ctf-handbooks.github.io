@@ -386,7 +386,11 @@ From the ctf_map README:
 >
 > Crop the screenshot into the aspect ratio mentioned above using a tool of your choice, and put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
 
-To crop your screenshot, you can use [this](https://imagy.app/image-aspect-ratio-changer/) website.
+You can change the height and width of your Minetest window and take a screenshot in-game with the correct aspect ratio or use [this](https://imagy.app/image-aspect-ratio-changer/) website. For the first option, do as follows:
+1. Go to your Minetest client's settings and under `Graphics`, temporarily set the `Screen Width` and `Screen Height` to `600` and `400` respectively as shown below:
+  ![Graphics Settings Menu](graphics_height_width_settings.png)
+2. After making sure that the values are properly set, close and re-open your Minetest client. Your Minetest window's height and width should have changed now.
+3.  Keep the window size as it is and follow the screenshot steps mentioned in the previous section.
 
 ## 14. Submission
 * Now that you have finished making your map, you can submit it to the official CTF server. You can learn more about submission [here](https://github.com/MT-CTF/capturetheflag/blob/master/mods/ctf/ctf_map/README.md#9-submission).
