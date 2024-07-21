@@ -20,7 +20,7 @@
 ### Low RAM Mode
 > CTF can sometimes reduce CPU usage by calculating things once and putting them in the RAM. Turn on low ram mode if you're getting crashes related to RAM/Memory usage.
 
-  ![Low RAM Mode](enable-low-ram-mode.png){width=433}
+  ![Low RAM Mode](enable_low_ram_mode.png){width=433}
 
 
 ## Game Freezes on Map Load

@@ -68,7 +68,7 @@ Pull Request (PR)
 - Go to the [CTF maps repository](https://github.com/mt-CTF/maps) using the web browser of your choice.
 - Click `Pull Requests`:
 
-![PR button](pr-s_section_example.png)
+![PR button](prs_section_example.png)
 - You will be directed to a webpage listing PRs with their respective labels. Clicking on a particular PR will take you to it.
 - There will be a series of tabs that will help you navigate through the things related to a specific PR. (An example image is shown below.)
 
@@ -84,11 +84,11 @@ The Map PRs have labels that indicate their current development stage and give i
 - Go to the `Pull Requests` tab and select the PR you want to review.
 - Click on the blue text indicating the `<pr-author>:<branch-of-their-fork>`, like:
 
-![PR Fork/Branch Example](pr-fork-branch-example.png)
+![PR Fork/Branch Example](pr_fork_branch_example.png)
 
 - After doing so, press the `Download ZIP` button:
 
-![Getting the files Example](pr-forked-repo-code-example.png)
+![Getting the files Example](pr_forked_repo_code_example.png)
 
 - Extract the ZIP file.
 - From the extracted folder, select the map folder that the PR author has added. In the example PR mentioned, the folder is `sewer_village`.
@@ -123,7 +123,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 ### 2. Making the world
 - Open your Minetest client and go to settings. Under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
 
-  ![enable-low-ram-mode.png](enable-low-ram-mode.png)
+  ![enable-low-ram-mode.png](enable_low_ram_mode.png)
 - Return back and make sure you are in the `Start Game` tab.
 - Click the Capture the Flag game icon:
 
