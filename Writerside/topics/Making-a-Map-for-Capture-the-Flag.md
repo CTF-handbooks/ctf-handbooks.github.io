@@ -372,25 +372,29 @@
   ```
 
 ## 13. Screenshot
-From the ctf_map README:
-> If you choose to submit your map, include a screenshot of it in the exported map's folder. It should be taken without any texture packs enabled and must have an aspect ratio of 3:2 (screenshot `600px`x`400px` is suggested).
->
-> You can take a screenshot easily by doing the following:
-> 1. Hide the HUD. By default <kbd>F1</kbd> does that.
-> 2. Hide the chat log. By default <kbd>F2</kbd> does that.
-> 3. See if your screenshot looks better with/without fog enabled. You can toggle it with <kbd>F3</kbd> by default
-> 4. Try to find a good view that shows most of the map.
-> 5. *(Optional)* Increase your view range if important parts of the map cannot be seen. By default the <kbd>=</kbd> (or <kbd>+</kbd>) and <kbd>-</kbd> keys do that.
-> 6. Take a screenshot **from Minetest**. By default <kbd>F12</kbd> does that.
-> 7. You can find the screenshot in `[Minetest folder]/screenshots` unless you have changed the path in the settings.
->
-> Crop the screenshot into the aspect ratio mentioned above using a tool of your choice, and put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
+* If you choose to submit your map, include a screenshot of it in the exported map's folder. It should be taken without any texture packs enabled and must have an aspect ratio of 3:2 (screenshot `600px`x`400px` is suggested).
+* To set the correct aspect ratio, you can:
+  1. [Change the height and width of your Minetest window](#using-minetest-to-adjust-screenshot-aspect-ratio) and take a screenshot *or*
+  2. Use a tool of your choice after taking the screenshot. For example, you can use [this](https://imagy.app/image-aspect-ratio-changer/) website.
 
-You can change the height and width of your Minetest window and take a screenshot in-game with the correct aspect ratio or use [this](https://imagy.app/image-aspect-ratio-changer/) website. For the first option, do as follows:
+### Using Minetest to adjust screenshot aspect ratio
+
 1. Go to your Minetest client's settings and under `Graphics`, temporarily set the `Screen Width` and `Screen Height` to `600` and `400` respectively as shown below:
-  ![Graphics Settings Menu](graphics_height_width_settings.png)
+   ![Graphics Settings Menu](graphics_height_width_settings.png)
 2. After making sure that the values are properly set, close and re-open your Minetest client. Your Minetest window's height and width should have changed now.
-3.  Keep the window size as it is and follow the screenshot steps mentioned in the previous section.
+3.  Keep the window size as it is and follow the screenshot steps mentioned in the next section
+
+### Taking the screenshot in Minetest
+You can take a screenshot easily by doing the following:
+1. Hide the HUD. By default <kbd>F1</kbd> does that.
+2. Hide the chat log. By default <kbd>F2</kbd> does that.
+3. See if your screenshot looks better with/without fog enabled. You can toggle it with <kbd>F3</kbd> by default
+4. Try to find a good view that shows most of the map.
+5. *(Optional)* Increase your view range if important parts of the map cannot be seen. By default the <kbd>=</kbd> (or <kbd>+</kbd>) and <kbd>-</kbd> keys do that.
+6. Take a screenshot **from Minetest**. By default <kbd>F12</kbd> does that.
+7. You can find the screenshot in `[Minetest folder]/screenshots` unless you have changed the path in the settings.
+
+If you did not [use Minetest do adjust the screenshot aspect ratio](#using-minetest-to-adjust-screenshot-aspect-ratio), then crop the screenshot into the correct aspect ratio using a tool of your choice, and put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
 
 ## 14. Submission
 * Now that you have finished making your map, you can submit it to the official CTF server. You can learn more about submission [here](https://github.com/MT-CTF/capturetheflag/blob/master/mods/ctf/ctf_map/README.md#9-submission).
