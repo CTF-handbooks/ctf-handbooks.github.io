@@ -394,7 +394,7 @@ You can take a screenshot easily by doing the following:
 6. Take a screenshot **from Minetest**. By default <kbd>F12</kbd> does that.
 7. You can find the screenshot in `[Minetest folder]/screenshots` unless you have changed the path in the settings.
 
-If you did not [use Minetest do adjust the screenshot aspect ratio](#using-minetest-to-adjust-screenshot-aspect-ratio), then crop the screenshot into the correct aspect ratio using a tool of your choice, and put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
+If you did not [use Minetest to adjust the screenshot aspect ratio](#using-minetest-to-adjust-screenshot-aspect-ratio), then crop the screenshot into the correct aspect ratio using a tool of your choice. Put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
 
 ## 14. Submission
 * Now that you have finished making your map, you can submit it to the official CTF server. You can learn more about submission [here](https://github.com/MT-CTF/capturetheflag/blob/master/mods/ctf/ctf_map/README.md#9-submission).
