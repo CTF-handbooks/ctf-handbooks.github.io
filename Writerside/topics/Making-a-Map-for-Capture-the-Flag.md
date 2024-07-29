@@ -174,7 +174,8 @@
   * Team chests for each team. You can find them as a node in the inventory.
 
     ![Team Chest](team_chest.png)
-  * _Optional:_ ores (such as iron, diamond, or mese ores). The number of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).
+  * _Optional:_ ores (such as iron, diamond, or mese ores). The number of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores). 
+  * **Note:** if you want to enable your map for the classic mode, ores are required.
 
 ## 9. Building the build-time barrier
 * Your build-time barrier should be in the middle of the map. It is fine if it can't be precisely in the middle.
