@@ -13,6 +13,6 @@ Commonly used indestructible barriers/nodes:
 | Indestructible Stone               | `ctf_map:stone`         |
 
 * To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for "append", and enable "Append item name".
-* You can see the itemstring of a node that you're pointing at in the map by displaying the "debug info menu" (by default, pressing <kbd>f5</kbd> once does that). The itemstring is shown in front of "pointed:".
+* You can see the itemstring of a node that you're pointing at in the map by displaying the "debug info menu" (by default, pressing <kbd>F5</kbd> once does that). The itemstring is shown in front of "pointed:".
 
 ![image](appenditemname.png)
