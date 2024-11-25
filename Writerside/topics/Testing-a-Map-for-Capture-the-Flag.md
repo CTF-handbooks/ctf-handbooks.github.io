@@ -142,8 +142,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 - Enable the `WorldEdit` mod by pressing `Select Mods` and double-clicking the `WorldEdit` mod to enable it.
 - Then click `Play Game` to begin.
 
-> If you find yourself encountering issues while testing, please refer [](Troubleshooting.md). For problems other than
-the ones mentioned in [](Troubleshooting.md) (making sure your Luanti client is **up-to-date**), you can contact the Map
+> If you find yourself encountering issues while testing, please refer [](Troubleshooting.md). For problems other than the ones mentioned in [](Troubleshooting.md) (making sure your Luanti client is **up-to-date**), you can contact the Map
 Author in your [](#7-posting-your-review) on GitHub regarding it or get support through links in
 the [](starter-topic.md).
 
