@@ -5,11 +5,11 @@
 > It is not recommended to test maps on a mobile device - Android or iOS/iPadOS.
 > {style="warning"}
 
-1. Minetest version 5.7 or above. The latest stable version is always recommended.
-   > If your version is outdated, download the latest from the [official Minetest website](https://www.minetest.net/).
+1. Luanti version 5.7 or above. The latest stable version is always recommended.
+   > If your version is outdated, download the latest from the [official Luanti website](https://www.luanti.org/).
    > {style="note"}
 2. The `Capture the Flag` game. To get it,
-    - Go to the `Content` tab in your Minetest client.
+    - Go to the `Content` tab in your Luanti client.
     - Click `Browse Online Content`
     - Search for `capturetheflag` (make sure that the `Games` category is selected)
     - Click on the `+` icon to install it.
@@ -92,14 +92,14 @@ The Map PRs have labels that indicate their current development stage and give i
 
 - Extract the ZIP file.
 - From the extracted folder, select the map folder that the PR author has added. In the example PR mentioned, the folder is `sewer_village`.
-- After successfully identifying the new map folder, copy and paste it to `<YOUR MINETEST FOLDER>/games/capturetheflag/mods/ctf/ctf_map/maps/` on your computer. You can go to your Minetest folder and paste the following into your file manager's search/directory to navigate there quickly:
+- After successfully identifying the new map folder, copy and paste it to `[user data directory]/games/capturetheflag/mods/ctf/ctf_map/maps/` on your computer. You can go to your Luanti user data directory and paste the following into your file manager's search/directory to navigate there quickly:
 ```
 /games/capturetheflag/mods/ctf/ctf_map/maps
 ```
 > If you experience a problem with the above path on certain file managers, copy it without the `/` at the start.
 > {style="warning"}
 
-> Going to the `About` section in Minetest and pressing the `Open User Data Directory` button will lead you to your Minetest folder if you do not know it's location on your filesystem.
+> Going to the `About` section in Luanti's main menu and clicking the `Open User Data Directory` button will lead you to your Luanti user data directory if you do not know its location on your filesystem. On Windows, that would be the folder Luanti is located in.
 > {style="note"}
 
 - You have now retrieved the map folder!
@@ -121,7 +121,7 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
   You can check for some of these before or after testing the map in-game.
 
 ### 2. Making the world
-- Open your Minetest client and go to settings. Under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
+- Open your Luanti client and go to settings. Under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
 
   ![enable-low-ram-mode.png](enable_low_ram_mode.png)
 - Return back and make sure you are in the `Start Game` tab.
@@ -142,7 +142,10 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 - Enable the `WorldEdit` mod by pressing `Select Mods` and double-clicking the `WorldEdit` mod to enable it.
 - Then click `Play Game` to begin.
 
-> If you find yourself encountering issues while testing, please refer [Troubleshooting](Troubleshooting.md). For problems other than the ones mentioned in [Troubleshooting](Troubleshooting.md) (making sure your Minetest client is **up-to-date**), you can contact the Map Author in your [review](#7-posting-your-review) on GitHub regarding it or get support through links in the [Welcome Page](starter-topic.md).
+> If you find yourself encountering issues while testing, please refer [](Troubleshooting.md). For problems other than
+the ones mentioned in [](Troubleshooting.md) (making sure your Luanti client is **up-to-date**), you can contact the Map
+Author in your [](#7-posting-your-review) on GitHub regarding it or get support through links in
+the [](starter-topic.md).
 
 ### 4. Selecting the Map
 > You will need the `ctf_admin` privilege to run most of the commands in this handbook. So, grant yourself the privs using `/grantme ctf_admin`. If you would like other privileges such as `fly`, `nolcip`, `fast`, etc., you can run `/grantme all`.

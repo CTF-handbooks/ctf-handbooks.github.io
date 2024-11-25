@@ -5,20 +5,22 @@
 > It is not recommended to make maps on a mobile device - Android or iOS/iPadOS. 
 > {style="warning"}
 
-* Minetest version 5.7 or above. The latest stable version is always recommended.
-  > If you don't have Minetest installed, you can download it from the [official Minetest website](https://www.minetest.net/).
+* Luanti version 5.7 or above. The latest stable version is always recommended.
+  > If you don't have Luanti installed, you can download it from the [official Luanti website](https://www.luanti.org/).
   > {style="note"}
-* Capture the Flag game for Minetest.
-  > You can install the game from either the ContentDB within your Minetest client or from the [ContentDB website](https://content.minetest.net/packages/rubenwardy/capturetheflag/).
+* Capture the Flag game for Luanti.
+  > You can install the game from either the ContentDB within your Luanti client or from the [ContentDB website](https://content.luanti.org/packages/rubenwardy/capturetheflag/).
   >
-  > Once you have downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/games`.
+  > Once you have downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[user data directory]/games`.
+  > 
+  > Going to the `About` section in Luanti's main menu and clicking the `Open User Data Directory` button will lead you to your Luanti user data directory if you do not know its location on your filesystem. On Windows, that would be the folder Luanti is located in.
   > {style="note"}
-* WorldEdit mod for Minetest. <sup>(_optional_)</sup>
+* WorldEdit mod for Luanti. <sup>(_optional_)</sup>
   > Although this is optional, it is recommended that you install WorldEdit. This tool is helpful when building desired map structures, and it can also speed up the process of creating large builds.
   >
-  > You can install WorldEdit from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/sfan5/worldedit/).
+  > You can install WorldEdit from either the in-game ContentDB within your Luanti client or from the [ContentDB website](https://content.luanti.org/packages/sfan5/worldedit/).
   >
-  > Once you have download the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/mods`.
+  > Once you have download the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[user data directory]/mods`.
   > {style="note"}
 
 ## 2. Planning the map
@@ -30,10 +32,10 @@
   > — -sniper-
 
 * The map design shouldn't give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.
-* Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause  problems.
+* Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Luanti or CTF game versions in the midst of the map-making process might also cause  problems.
 
 ## 3. Creating the world
-* After opening Minetest, go to settings and under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
+* After opening Luanti, go to settings and under Capture the Flag, enable `Low RAM mode`. Enable this setting to prevent the game from crashing due to [memory related crashes](Troubleshooting.md#low-ram-mode).
   
   ![enable-low-ram-mode.png](enable_low_ram_mode.png)
 * Return back and make sure you are in the `Start Game` tab. Then, select the `Capture the Flag` game.
@@ -66,7 +68,7 @@
 * The area within will be selected.
 
   ![Visual Representation of Regions](visual_represention_of_regions.png)
-  > **Remember to backup your world before risky operations!**
+  > **Remember to back up your world before risky operations!**
   > {style="warning"}
 
 * Open your inventory. Under the `Crafting` tab, an earth icon is hidden behind the crafting options. Click it to open the WorldEdit GUI.
@@ -287,7 +289,7 @@
   >  ```
   >  ![Map Treasures](map_treasures.png)
 
-* The `Skybox` is an image of a sky that will replace the default Minetest sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes. ([***WIP***](https://github.com/CTF-handbooks/ctf-handbooks.github.io/issues/9))
+* The `Skybox` is an image of a sky that will replace the default sky when players play your map. You can leave this as `none` to use the default sky or select one of the skyboxes. You can also add custom skyboxes. ([***WIP***](https://github.com/CTF-handbooks/ctf-handbooks.github.io/issues/9))
 
   ![Skyboxes](skyboxes.png)
 
@@ -331,8 +333,8 @@
   ![Finish Editing](finish.png)
 
 ## 12. Testing the map
-* You can find your exported map folder within `[Minetest folder]/worlds/[Map World]/schems/`.
-* To test your map, copy that folder into `[Minetest folder]/games/capturetheflag/mods/ctf/ctf_map/maps`. You can go to your Minetest folder and paste the following into your file manager's search/directory to navigate there quickly:
+* You can find your exported map folder within `[(user data directory)]/worlds/[Map World]/schems/`.
+* To test your map, copy that folder into `[user data directory]/games/capturetheflag/mods/ctf/ctf_map/maps`. You can go to your Luanti user data directory and paste the following into your file manager's search/directory to navigate there quickly:
   ```
   /games/capturetheflag/mods/ctf/ctf_map/maps
   ```
@@ -375,27 +377,27 @@
 ## 13. Screenshot
 * If you choose to submit your map, include a screenshot of it in the exported map's folder. It should be taken without any texture packs enabled and must have an aspect ratio of 3:2 (screenshot `600px`x`400px` is suggested).
 * To set the correct aspect ratio, you can:
-  1. [Change the height and width of your Minetest window](#using-minetest-to-adjust-screenshot-aspect-ratio) and take a screenshot *or*
+  1. [Change the height and width of your Luanti client window](#using-luanti-to-adjust-screenshot-aspect-ratio) and take a screenshot *or*
   2. Use a tool of your choice after taking the screenshot. For example, you can use [this](https://imagy.app/image-aspect-ratio-changer/) website.
 
-### Using Minetest to adjust screenshot aspect ratio
+### Using Luanti to adjust screenshot aspect ratio
 
-1. Go to your Minetest client's settings and under `Graphics`, temporarily set the `Screen Width` and `Screen Height` to `600` and `400` respectively as shown below:
+1. Go to your Luanti client's settings and under `Graphics`, temporarily set the `Screen Width` and `Screen Height` to `600` and `400` respectively as shown below:
    ![Graphics Settings Menu](graphics_height_width_settings.png)
-2. After making sure that the values are properly set, close and re-open your Minetest client. Your Minetest window's height and width should have changed now.
+2. After making sure that the values are properly set, close and re-open your Luanti client. Your Luanti window's height and width should have changed now.
 3.  Keep the window size as it is and follow the screenshot steps mentioned in the next section
 
-### Taking the screenshot in Minetest
+### Taking the screenshot in Luanti
 You can take a screenshot easily by doing the following:
-1. Hide the HUD. By default <kbd>F1</kbd> does that.
-2. Hide the chat log. By default <kbd>F2</kbd> does that.
+1. Hide the HUD. By default, <kbd>F1</kbd> does that.
+2. Hide the chat log. By default, <kbd>F2</kbd> does that.
 3. See if your screenshot looks better with/without fog enabled. You can toggle it with <kbd>F3</kbd> by default
 4. Try to find a good view that shows most of the map.
-5. *(Optional)* Increase your view range if important parts of the map cannot be seen. By default the <kbd>=</kbd> (or <kbd>+</kbd>) and <kbd>-</kbd> keys do that.
-6. Take a screenshot **from Minetest**. By default <kbd>F12</kbd> does that.
-7. You can find the screenshot in `[Minetest folder]/screenshots` unless you have changed the path in the settings.
+5. *(Optional)* Increase your view range if important parts of the map cannot be seen. By default, the <kbd>=</kbd> (or <kbd>+</kbd>) and <kbd>-</kbd> keys do that.
+6. Take a screenshot **from Luanti**. By default, <kbd>F12</kbd> does that.
+7. You can find the screenshot in `[user data directory]/screenshots` unless you have changed the path in the settings.
 
-If you did not [use Minetest to adjust the screenshot aspect ratio](#using-minetest-to-adjust-screenshot-aspect-ratio), then crop the screenshot into the correct aspect ratio using a tool of your choice. Put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
+If you did not [use Luanti to adjust the screenshot aspect ratio](#using-luanti-to-adjust-screenshot-aspect-ratio), then crop the screenshot into the correct aspect ratio using a tool of your choice. Put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
 
 ## 14. Submission
 * Now that you have finished making your map, you can submit it to the official CTF server. You can learn more about submission [here](https://github.com/MT-CTF/capturetheflag/blob/master/mods/ctf/ctf_map/README.md#9-submission).
