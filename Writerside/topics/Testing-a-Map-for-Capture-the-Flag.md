@@ -143,8 +143,8 @@ The configuration values and fields for the map are in the `<map_folder>/map.con
 - Then click `Play Game` to begin.
 
 > If you find yourself encountering issues while testing, please refer [](Troubleshooting.md). For problems other than the ones mentioned in [](Troubleshooting.md) (making sure your Luanti client is **up-to-date**), you can contact the Map
-Author in your [](#7-posting-your-review) on GitHub regarding it or get support through links in
-the [](starter-topic.md).
+Author in your [review](#7-posting-your-review) on GitHub regarding it or get support through links in
+the [Welcome Page](starter-topic.md).
 
 ### 4. Selecting the Map
 > You will need the `ctf_admin` privilege to run most of the commands in this handbook. So, grant yourself the privs using `/grantme ctf_admin`. If you would like other privileges such as `fly`, `nolcip`, `fast`, etc., you can run `/grantme all`.
