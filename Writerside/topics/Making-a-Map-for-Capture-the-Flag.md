@@ -9,7 +9,7 @@
   > If you don't have Luanti installed, you can download it from the [official Luanti website](https://www.luanti.org/).
   > {style="note"}
 * Capture the Flag game for Luanti.
-  > You can install the game from either the ContentDB within your Luanti client or from the [ContentDB website](https://content.luanti.org/packages/rubenwardy/capturetheflag/).
+  > You can install the game from either the in-game ContentDB within your Luanti client or from the [ContentDB website](https://content.luanti.org/packages/rubenwardy/capturetheflag/).
   >
   > Once you have downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[user data directory]/games`.
   > 
