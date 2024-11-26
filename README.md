@@ -12,14 +12,14 @@ Previous versions of the handbooks can be found in the archived repositories bel
 Please see [`CONTRIBUTING.md`](./CONTRIBUTING.md) for information on how to contribute to the handbooks.
 
 ## Media License
-- [Capture the Flag header](images/header.png): [CC BY 3.0 Unported](https://creativecommons.org/licenses/by/3.0/) by [SuddenSFD](https://github.com/SuddenSFD).
-- [CTF Handbooks' GitHub organisation logo](org-icon.png): [CY BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) by Cit.
+- [Capture the Flag header](Writerside/images/header.png): [CC BY 3.0 Unported](https://creativecommons.org/licenses/by/3.0/) by [SuddenSFD](https://github.com/SuddenSFD).
+- [CTF Handbooks' GitHub organisation logo](Writerside/images/logo.png): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) by Cit.
 
 All other media is licensed under [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) where applicable (some screenshots contain [Minetest Game](https://github.com/minetest/minetest_game) textures, the majority of which are licensed [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/)).
 
 ## Contributors
 <a href="https://github.com/CTF-handbooks/ctf-handbooks.github.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=CTF-handbooks/ctf-handbooks.github.io" />
+  <img src="https://contrib.rocks/image?repo=CTF-handbooks/ctf-handbooks.github.io"  alt=""/>
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
