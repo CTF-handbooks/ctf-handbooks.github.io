@@ -11,4 +11,9 @@
         <link href="https://github.com/SuddenSFD">CC-BY-3.0 by SuddenSFD</link>
         <link href="https://github.com/CTF-handbooks/ctf-handbooks.github.io">Website source</link>
     </footer>
+    <build-profile instance="ch">
+        <variables>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
 </buildprofiles>
