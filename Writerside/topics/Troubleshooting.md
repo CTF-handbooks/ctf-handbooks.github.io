@@ -1,4 +1,4 @@
-# Troubleshooting
+# ⁉️ Troubleshooting
 
 > Always ensure that your client is **up-to-date**. The recommended Luanti version for the latest CTF game is **5.6 and above**, per its [ContentDB page](https://content.luanti.org/packages/rubenwardy/capturetheflag/).
 > {style="warning"}

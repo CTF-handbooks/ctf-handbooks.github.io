@@ -1,4 +1,4 @@
-# The Map Maker's Handbook
+# ⛏️ The Map Maker's Handbook
 This is a detailed guide on the process of making a map for the Capture the Flag game for Luanti.
 
 ## Sections

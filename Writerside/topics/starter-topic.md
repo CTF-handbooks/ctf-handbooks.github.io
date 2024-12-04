@@ -1,4 +1,4 @@
-# Welcome to CTF Handbooks! 👋
+# 👋 Welcome to CTF Handbooks!
 ![header](header.png)
 
 ***Support:*** [![CTF Luanti Forums Topic](luantiforumlogo.png){height=32 border-effect="rounded"}](https://forum.luanti.org/viewtopic.php?f=10&t=13157), [![Discord](discordlogo.svg){height=32 border-effect="rounded"}](https://discord.gg/vcZTRPX) (*`#maps` channel*)

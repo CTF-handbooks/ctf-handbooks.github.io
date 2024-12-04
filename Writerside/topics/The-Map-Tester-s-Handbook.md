@@ -1,4 +1,4 @@
-# The Map Tester's Handbook
+# 🧪 The Map Tester's Handbook
 This is a detailed guide to testing maps for the Capture the Flag game for Luanti.
 
 ## Chapters
